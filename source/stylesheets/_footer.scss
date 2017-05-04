@@ -1,11 +1,15 @@
 .footer {
   background-color: #FFF;
   height: 100px;
+  width: 100%;
   ul {
     color: #231f20;
     font-size: 16px;
     font-weight: bold;
     list-style: none;
+    li {
+      padding: 31px 32px 0px 32px;
+    }
   }
 }
 
