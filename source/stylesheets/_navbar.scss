@@ -1,6 +1,31 @@
-.navbar {
+.my-navbar {
   background-color: white;
-  height: 84px;
+  height: 70px;
+  width: 100%;
   display: flex;
+  color: #2f8ca7;
+  align-items: center;
   justify-content: space-between;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: inherit;
+}
+
+.border-right {
+  border-right: 1px solid #e2f0f4;
+}
+
+.border-left {
+  border-left: 1px solid #e2f0f4;
+}
+
+.menu-item {
+  flex: 0 1 auto;
+  cursor: pointer;
+  padding: 0 10px;
 }
