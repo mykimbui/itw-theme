@@ -1,0 +1,21 @@
+.card {
+  height: 393px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #313436;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index:2;
+  background: #313436;
+  opacity: 0;
+}
+.card-link:hover{
+  opacity: 0.1;
+}
