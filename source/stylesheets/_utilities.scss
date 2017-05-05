@@ -6,6 +6,7 @@ h1 {
   background: linear-gradient(to left, #e12c75 10%, #2f8ca7 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  word-break: keep-all;
 }
 
 p {
